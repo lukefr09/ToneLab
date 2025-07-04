@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import ToneMixer from './components/ToneMixer'
+import ToneLab from './components/ToneLab'
 
 function App() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -135,7 +135,7 @@ function App() {
       
       {/* Content - centered with padding */}
       <div className="relative z-10 flex items-center justify-center min-h-screen p-8">
-        <ToneMixer onAudioStateChange={setAudioState} />
+        <ToneLab onAudioStateChange={setAudioState} />
       </div>
     </div>
   )

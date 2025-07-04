@@ -1,9 +1,9 @@
-// src/components/ToneMixer.tsx
+// src/components/ToneLab.tsx
 import React, { useState, useRef, useEffect } from 'react';
 import * as Tone from 'tone';
 import { Play, Square, Volume2, Download, Share, ChevronDown, Menu } from 'lucide-react';
 
-interface ToneMixerProps {
+interface ToneLabProps {
   onAudioStateChange: (state: {
     freq1: number;
     freq2: number;
@@ -219,7 +219,7 @@ const audioBufferToWav = (audioBuffer: AudioBuffer): ArrayBuffer => {
   return buffer;
 };
 
-const ToneMixer: React.FC<ToneMixerProps> = ({ onAudioStateChange }) => {
+const ToneLab: React.FC<ToneLabProps> = ({ onAudioStateChange }) => {
   const [freq1, setFreq1] = useState(440); // A4
   const [freq2, setFreq2] = useState(880); // A5
   const [freq1Input, setFreq1Input] = useState('440.0');
@@ -536,7 +536,7 @@ const ToneMixer: React.FC<ToneMixerProps> = ({ onAudioStateChange }) => {
         {/* Header with dropdown */}
         <div className="relative mb-4">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-white mb-2">Tone Mixer</h1>
+            <h1 className="text-3xl font-bold text-white mb-2">ToneLab</h1>
             <p className="text-gray-300 text-lg">Mix and blend sine wave frequencies (20 Hz - 20 kHz)</p>
           </div>
           
@@ -1100,4 +1100,4 @@ const ToneMixer: React.FC<ToneMixerProps> = ({ onAudioStateChange }) => {
   );
 };
 
-export default ToneMixer; 
+export default ToneLab; 
