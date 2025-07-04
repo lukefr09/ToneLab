@@ -1,7 +1,7 @@
 # 🎵 ToneLab
 *Professional web-based audio frequency generator and mixer*
 
-[Live Demo](your-deploy-url-here) | [Features](#features) | [Technical Details](#technical-details)
+[Live Demo](https://tone-lab-beta.vercel.app/) | [Features](#features) | [Technical Details](#technical-details)
 
 ## Overview
 A modern, professional tone mixer for generating and blending sine wave frequencies. Built with React and Web Audio API, featuring logarithmic frequency scaling, musical note detection, and real-time audio export capabilities.
@@ -51,7 +51,7 @@ Perfect for:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ToneLab.git
+git clone https://github.com/lukefr09/ToneLab.git
 cd ToneLab
 
 # Install dependencies
@@ -216,9 +216,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ToneLab/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ToneLab/discussions)
-- **Email**: lukefrancis09@icloud.com
+- **Issues**: [GitHub Issues](https://github.com/lukefr09/ToneLab/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/lukefr09/ToneLab/discussions)
+- **GitHub**: [@lukefr09](https://github.com/lukefr09)
 
 ---
 
