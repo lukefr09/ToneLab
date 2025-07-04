@@ -1,8 +1,7 @@
 # 🎵 ToneLab
 *Professional web-based audio frequency generator and mixer*
 
-[Live Demo](https://tone-lab-beta.vercel.app/) | [Features](#features) | [Technical Details](#technical-details)
-
+[Live Demo](https://tone-lab-beta.vercel.app/)
 ## Overview
 A modern, professional tone mixer for generating and blending sine wave frequencies. Built with React and Web Audio API, featuring logarithmic frequency scaling, musical note detection, and real-time audio export capabilities.
 
